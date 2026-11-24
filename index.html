@@ -162,7 +162,9 @@ section h2 small { font-family: var(--font-mono); font-weight: 400; font-size: 1
 .authors { font-size: 14.5px; color: var(--muted); margin: 0; }
 .authors .me { color: var(--ink); font-weight: 600; }
 .pub-meta { font-size: 13.5px; color: var(--muted); margin: 4px 0 0; }
-.pub-meta a { font-family: var(--font-mono); font-size: 12.5px; }
+.pub-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+.pub-links a { font-family: var(--font-mono); font-size: 12px; text-decoration: none; border: 1px solid var(--line); border-radius: 3px; padding: 2px 8px; background: var(--surface); }
+.pub-links a:hover { border-color: var(--accent); }
 
 /* Timeline */
 .tl { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 26px; }
@@ -265,6 +267,7 @@ events li { grid-template-columns: 1fr; gap: 6px; }
               <p class="pub-title">Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover</p>
               <p class="authors"><span class="me">P. Marra</span>, S. Berti, G. M. Caddeo, L. Natale</p>
               <p class="pub-meta">IEEE-RAS International Conference on Humanoid Robots</p>
+              <p class="pub-links"><a href="https://hsp-iit.github.io/temporal-tactile-bimanual-handover/" target="_blank" rel="noopener">Project page</a></p>
             </div>
           </li>
           <li class="pub">
@@ -273,6 +276,7 @@ events li { grid-template-columns: 1fr; gap: 6px; }
               <p class="pub-title">Physically Grounded 3D Generative Reconstruction under Hand Occlusion using Proprioception and Multi-Contact Touch</p>
               <p class="authors">G. M. Caddeo, <span class="me">P. Marra</span>, L. Natale</p>
               <p class="pub-meta">European Conference on Computer Vision</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2604.09100" target="_blank" rel="noopener">arXiv:2604.09100</a></p>
             </div>
           </li>
           <li class="pub">
@@ -281,6 +285,7 @@ events li { grid-template-columns: 1fr; gap: 6px; }
               <p class="pub-title">Multifingered Force-Aware Control for Humanoid Robots</p>
               <p class="authors"><span class="me">P. Marra</span>, G. M. Caddeo, U. Pattacini, L. Natale</p>
               <p class="pub-meta">IEEE International Conference on Robotics and Automation</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2603.08142" target="_blank" rel="noopener">arXiv:2603.08142</a></p>
             </div>
           </li>
           <li class="pub">
@@ -288,7 +293,8 @@ events li { grid-template-columns: 1fr; gap: 6px; }
             <div>
               <p class="pub-title">MPC for Suturing Stitch Automation</p>
               <p class="authors"><span class="me">P. Marra</span>, S. Hussain, M. Caianiello, F. Ficuciello</p>
-              <p class="pub-meta">IEEE Transactions on Medical Robotics and Bionics, vol. 6, no. 4, pp. 1468–1477 · <a href="https://doi.org/10.1109/TMRB.2024.3472796" target="_blank" rel="noopener">doi:10.1109/TMRB.2024.3472796</a></p>
+              <p class="pub-meta">IEEE Transactions on Medical Robotics and Bionics, vol. 6, no. 4, pp. 1468–1477</p>
+              <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/10704690" target="_blank" rel="noopener">IEEE Xplore</a><a href="https://doi.org/10.1109/TMRB.2024.3472796" target="_blank" rel="noopener">doi:10.1109/TMRB.2024.3472796</a></p>
             </div>
           </li>
         </ul>
